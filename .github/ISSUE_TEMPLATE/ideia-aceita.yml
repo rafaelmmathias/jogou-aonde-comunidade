@@ -1,0 +1,18 @@
+name: Ideia aceita (equipe)
+description: Ideia aprovada na triagem, pronta para o quadro
+labels: [ideia, aceita]
+body:
+  - type: input
+    id: discussao
+    attributes:
+      label: Link da discussão
+    validations: {required: true}
+  - type: textarea
+    id: problema
+    attributes:
+      label: Qual problema resolve?
+    validations: {required: true}
+  - type: textarea
+    id: como-fica
+    attributes:
+      label: Como fica depois?

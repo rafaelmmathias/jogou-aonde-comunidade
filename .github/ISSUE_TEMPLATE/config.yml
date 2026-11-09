@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Ideias e conversas
+    url: https://github.com/rafaelmmathias/jogou-aonde-comunidade/discussions
+    about: Ideias novas começam nas Discussões, não em issues.
+  - name: Discord
+    url: https://discord.gg/PYThPH8CF
+    about: Papo rápido com a galera.

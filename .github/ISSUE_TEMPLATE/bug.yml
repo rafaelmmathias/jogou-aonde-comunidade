@@ -1,0 +1,21 @@
+name: Bug
+description: Algo não funciona como deveria
+labels: [bug]
+body:
+  - type: dropdown
+    id: versao
+    attributes:
+      label: Em qual versão?
+      options: [Jogo, Clube]
+    validations: {required: true}
+  - type: textarea
+    id: o-que
+    attributes:
+      label: O que aconteceu?
+      description: O que você fez, o que esperava e o que viu.
+    validations: {required: true}
+  - type: input
+    id: aparelho
+    attributes:
+      label: Aparelho e navegador
+      placeholder: "iPhone, Safari"
